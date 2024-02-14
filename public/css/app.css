@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #E0E0E0; /* Lighter text color for better contrast */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #BB86FC; /* A light purple for headings, similar to Material Design's theme */
+}
+
+p {
+    color: #CFD8DC; /* A lighter grey for paragraph text */
+}
+
+a {
+    color: #BB86FC; /* Making links the same purple for consistency */
+    text-decoration: none; /* Optional: removes underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Restores underline on hover for visual feedback */
+}
+
+img {
+    display: block;
+    max-width: 100%; /* Ensures images are responsive */
+    height: auto; /* Maintains aspect ratio */
+    margin: 20px 0; /* Adds some space around images */
+}
+
+/* Additional styling for the footer for better visibility */
+footer {
+    background-color: #1F1B24; /* Slightly lighter than the body for contrast */
+    color: #E0E0E0;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Adds some padding around the content for better readability */
+main {
+    padding: 20px;
+}
